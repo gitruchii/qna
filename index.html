@@ -16,8 +16,8 @@
     const add=(ev)=>{
       ev.preventDefault();
       let data={
-      q: document,getElementById('question').value;
-      a: document,getElementById('answer').value;
+      q: document.getElementById('question').value,
+      a: document.getElementById('answer').value
     }
     obj.push(data);
     document.forms[0].reset();
@@ -31,4 +31,3 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
 
  </script>
-  
