@@ -1,0 +1,39 @@
+h1, h2 {
+  font-family: Lato;
+}
+
+	body	{	
+					background: #b5b5b5;
+				}
+			h1 	{
+					text-align: center;
+				}
+			#qna 	{
+					width: 20%;
+					text-align: center;
+    					background: #efefef;
+					border-radius: 5px;
+					margin: 0 auto;
+					margin-top: 17%;
+					border: 1px solid black;
+					font-weight: bold;				
+				}
+			#question, #answer 
+				{
+					border-radius: 5px;
+					height: 30px;
+					margin-top:20px;
+					border: 1px solid #a5a5a5;
+				}
+			#answer {				
+					margin-bottom:20px;
+				}
+			#submit	{
+					margin-bottom:20px;
+					height: 30px;
+					border: 1px solid #a5a5a5;
+					border-radius: 5px;
+				}	
+		#submit:hover	{	
+					background: #81d0ff;
+				}

@@ -1,0 +1,34 @@
+<form>
+  <div id="qna">
+			<h1>Question Maker</h1>
+
+			<label for="question">Question: </label><input type="text" id="question" placeholder="Enter your question here." required>
+			<br>
+			<label for="answer">Answer: </label><input type="text" id="answer" placeholder="Enter your answer here." required>
+			<br>
+			<button id="submit">Submit</button>
+		</div>
+</form>
+<a href="show.html">Test</a>
+
+<script>
+    let obj=[];
+    const add=(ev)=>{
+      ev.preventDefault();
+      let data={
+      q: document,getElementById('question').value;
+      a: document,getElementById('answer').value;
+    }
+    obj.push(data);
+    document.forms[0].reset();
+
+localStorage.setItem('data', JSON.stringify(obj))
+    }
+
+document.addEventListener('DOMContentLoaded', ()=>{
+  document.getElementById('submit').addEventListener('click', add);
+});
+
+
+ </script>
+  

@@ -1,0 +1,16 @@
+<div id="show">
+  <h1>Show Question</h1>
+    <input id="qv">
+    <input id="av" >
+</div>
+  <script>
+    for (let i=0; i<localStorage.length; i++){
+      const key = localStorage.key(i);
+      const value = localStorage.getItem(key);
+      
+      let qu = document.getElementById('qv');
+      let au = document.getElementById('av');
+      qu.innerHTML+= `${key}`;
+    }
+    localStorage.key
+  </script>
